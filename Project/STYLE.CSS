@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: 112%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color:teal;
+    border: 2px solid black;
+}
+.logo img{
+        
+          width: 70px;
+          height: 60px;
+          margin: 10px;
+          margin-right: 50px;
+}
+.head{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-family: 'Potta One', cursive;
+    color: rgb(64, 61, 243);
+    background-color: rgb(207, 199, 199);
+    border:2px solid black;
+}
+#T01{
+    width: 90%;
+    height: 120%;
+    margin: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.2vw;
+}
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+th,td{
+    padding: 5px;
+    text-align: left;
+}
+#T01 tr:nth-child(even) {
+        background-color:turquoise;
+} 
+#T01 tr:nth-child(odd) {
+        background-color:thistle;
+}
+#T01 th {
+        color: white;
+        background-color: black;
+}
+#T01 caption{
+    font-weight: bold;
+    font-size: 1.6vw;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background-color:slategrey;
+}
+h2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.9vw;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.myform{
+    color:white;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 1.2vw;   
+}
+.myform{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.yo>input{
+    width: 90px;
+    height: 40px;
+    font-weight: bolder;
+}
+footer{
+    display: flex;
+    align-items: center;
+    color:black;
+    text-shadow: dimgray;
+    font-size: 1.4vw;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    height: 50px;
+    background-color:teal;
+    margin: 0px;
+    padding-left: 50px;
+    border: 2px solid black;  
+     
+}
+a{
+    color: black;
+    font-family:  'Roboto', sans-serif;
+    font-style: initial;
+    font-size: 1vw;
+    text-decoration: none;
+    background-color: lightgray;
+}
+a:hover{
+    background-color: whitesmoke;
+    font-size: 1.6vw;
+    font-style: italic;
+    color: tomato;
+}

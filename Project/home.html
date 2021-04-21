@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Plans</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="logo.jpg" alt="logo"></span>
+        <div class="head">MAKE MY TRAVEL PLANS</div>
+    </nav>
+    <div class="main">
+        <table id="T01">
+            <caption>TRAVEL DESTINATIONS AND PACKAGES</caption>
+            <tr>
+                <th>PLACE</th>
+                <th>DAYS & NIGHTS</th>
+                <th colspan="2">TRAVEL BY</th>
+                <th>PRICE</th>
+            </tr>
+            <tr>
+                <td>GOA</td>
+                <td>3 DAYS & 4 NIGHTS</td>
+                <td>AEROPLANE</td>
+                <td>BUS</td>
+                <td>18000 RS</td>
+            </tr>
+            <tr>
+                <td>MANALI</td>
+                <td>4 DAYS & 5 NIGHTS</td>
+                <td>CAR</td>
+                <td>BUS</td>
+                <td>15000 RS</td>
+            </tr>
+            <tr>
+                <td>KOCHI</td>
+                <td>5 DAYS & 6 NIGHTS</td>
+                <td>AEROPLANE</td>
+                <td>BUS</td>
+                <td>20000 RS</td>
+            </tr>
+            <tr>
+                <td>LEH</td>
+                <td>4 DAYS & 5 NIGHTS</td>
+                <td>BIKE</td>
+                <td>BUS</td>
+                <td>18000 RS</td>
+            </tr>
+        </table>
+    </div><br>
+    <h2> Fill this form for travelling with us.</h2><br>
+    <div class="myform">
+        <form action="something.php">
+            <label for="fname">First Name:</label>
+            <div><input type="text" id="fname" name="fname"></div>
+            <label for="lname">Last Name</label>
+            <div><input type="text" id="lname" name="lname"><br></div>
+            <label for="mnumber">Mobile Number:</label>
+            <div><input type="tel" name="mnumber" id="mnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br></div>
+            <label for="email">Email:</label>
+            <div><input type="email" name="email" id="email"><br></div>
+            <label for="destination">Destination:</label>
+            <div><select name="destination" id="destination">
+                    <option value="GOA">GOA</option>
+                    <option value="MANALI">MANALI</option>
+                    <option value="KOCHI">KOCHI</option>
+                    <option value="LEH">LEH</option>
+                </select></div><br>
+            <div class="yo"><input type="submit" value="Submit"></div>
+
+        </form>
+    </div>
+    <div>
+        <footer>
+            <p>Naveen Kanwar&emsp;&#169;&emsp;&emsp;&emsp;&emsp;<a href="www.makemytravelplans.com">Make My Travel Plans website</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;18 April 2021</p>
+        </footer>
+    </div>
+</body>
+
+</html>
