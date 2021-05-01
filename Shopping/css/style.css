@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+}
+.nav h1{
+    justify-content: center;
+}
+.logo img{
+    width:200px;
+    margin: 5px;
+    padding: 5px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+.items{
+    margin: 8px;
+    padding: 6px;
+    font-size: 1.2rem;
+    font-family: 'Voltaire', sans-serif;
+}
+.items a{
+    color: black;
+    text-decoration: none;
+    padding: 5px; 
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 3.5rem;
+    font-family: 'Voltaire', sans-serif;
+}
+.date input{
+    margin-left: 290px;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Voltaire', sans-serif;
+    text-decoration: underline;
+}
+nav::before{
+    background-color: rgb(235, 223, 203);
+}
+section{
+    background-color: grey;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.aside{
+    height: 100vh;
+    width: 15vw;
+    margin-left: 4px;
+    padding: 40px 0px 5px 10px;
+}
+.aside h3{
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: bolder;
+    font-family: 'Voltaire', sans-serif;
+}
+
+.aside .feedback h4{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding: 8px;
+    font-family: 'Voltaire', sans-serif;
+}
+.aside .feedback textarea{
+    background-color:snow;
+    border-radius: 6px;
+    width: 150px;
+    
+    margin-left: 5px;
+    color: black;
+    font-family: 'Voltaire', sans-serif;
+}
+.aside .feedback textarea::placeholder{
+    font-size: 1rem;
+}
+.aside .feedback button{
+    width: 50px;
+     margin-left: 65px;
+     margin-top: 5px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 1rem;
+    font-family: 'Voltaire', sans-serif;
+}
+.aside p{
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: 'Voltaire', sans-serif;
+}
+.products{
+    margin-top: 20px;
+    margin-left: 70px;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 380px 380px 380px;
+    justify-content: center;    
+}
+.layout a img{
+    width: 300px;
+    height: 300px;
+    
+}
+.layout h4{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Voltaire', sans-serif;
+}
+.foot{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Voltaire', sans-serif;
+}

@@ -1,0 +1,68 @@
+    section{
+        background-color: grey;
+        width: 100vw;
+    }
+    .nav{
+        flex-direction: column;
+        height: 200px;
+    }
+    .nav h1{
+        font-size: 2rem;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .list{
+        padding: 4px;
+
+    }
+    .items{
+        margin: 5px;
+        padding: 3px;
+        font-size: .8rem;
+    }
+    .items a{    
+        padding: 3px; 
+    }
+    .logo img{
+       width:150px;
+    }
+    .date input{
+        display: none;
+    }
+    .conatiner{
+        flex-direction: column;
+    }
+    .products{
+        margin-left: 20px;
+        margin-top: 30px;
+        grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+        align-items: center;
+    }
+    .layout a img{
+        width: 150px;
+        height: 150px;
+    }
+    .aside{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        width: 400px;
+    }
+    .aside h3{
+        font-size: 1rem;
+    }
+    .aside .feedback h4{
+        font-size: 1rem;
+    }
+    .aside .feedback textarea{
+        width: 150px;
+        height: 250px;
+    }
+    .aside .feedback button{
+        margin-left: 45px;
+    }
+    .aside p{
+        padding: 2px;
+        font-size: 0.8rem;
+    }
+

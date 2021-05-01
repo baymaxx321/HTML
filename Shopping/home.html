@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BayMart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:960px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo"><img src="images/logo.jpg" alt="BayMart"></div>
+            <ul class="list">
+                <li class="items"><a href="#Home">Home</a></li>
+                <li class="items"><a href="#About">About us</a></li>
+                <li class="items"><a href="#Contact">Contact us</a></li>
+                <li class="items"><a href="#Help">Help</a></li>
+            </ul>
+            <div class="head">
+                <h1>BayMart</h1>
+            </div>
+            <div class="date">
+                 <input  type="text" id="currentDate">
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <section>
+        <div class="container">
+            <div class="aside">
+                <h3>Welcome to Baymart</h3>
+                <p>
+                    We deal in authentic sneakers from around the world.
+                    We have shoes from all brands avaible at reasonabl rate.
+                    Shop to your hearts depth.And dont forget to leave your feedback! <br>
+                </p>
+                <div class="feedback">
+                    <h4>Feedback form !</h4>
+                    <label for="form"></label>
+                    <textarea name="feedbackform" id="form" placeholder="Please leave your feedback here !" cols="20"
+                        rows="20"></textarea>
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </div>
+            <div class="products">
+                <div class="layout" id="product2">
+                    <a href="#item1"><img src="images/item1.jpg" alt=""></a>
+                    <h4> Nike 1 @ 5999RS</h4>
+                </div>
+                <div class="layout" id="product3">
+                    <a href="#item3"><img src="images/item2.jpg" alt=""></a>
+                    <h4> Nike 2 @ 5499RS</h4>
+                </div>
+                <div class="layout" id="product1">
+                    <a href="#item2"><img src="images/item3.jpg" alt=""></a>
+                    <h4> Nike 3 @ 4999RS</h4>
+                </div>
+                <div class="layout" id="product4">
+                    <a href="#item4"><img src="images/item4.jpg" alt=""></a>
+                    <h4> Nike 09 @ 5799RS</h4>
+                </div>
+                <div class="layout" id="product5">
+                    <a href="#item5"><img src="images/item5.jpg" alt=""></a>
+                    <h4> Adidas 32 @ 6999RS</h4>
+                </div>
+                <div class="layout" id="product6">
+                    <a href="#item6"><img src="images/item6.jpg" alt=""></a>
+                    <h4> Adidas 98 @ 4999RS</h4>
+                </div>
+                <div class="layout" id="product7">
+                    <a href="#item7"><img src="images/item7.jpg" alt=""></a>
+                    <h4> Puma 18 @ 5899RS</h4>
+                </div>
+                <div class="layout" id="product8">
+                    <a href="#item8"><img src="images/item8.jpg" alt=""></a>
+                    <h4> Puma 07 @ 4999RS</h4>
+                </div>
+                <div class="layout" id="product9">
+                    <a href="#item9"><img src="images/item9.jpg" alt=""></a>
+                    <h4> New Balance og @ 6999RS</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <pre>Copyright &copy; 2021 All Rights Reserved BayMart</pre>
+        </div>
+    </footer>
+    <script>
+        let today = new Date();
+        let date = today.getDate()+'--'+(today.toLocaleString('default', { month: 'long' }))+'--'+today.getFullYear();
+        document.getElementById("currentDate").value = date;   
+    </script>
+
+</body>
+
+</html>
